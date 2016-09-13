@@ -1,14 +1,14 @@
 //
-//  DoraemonUITests.swift
-//  DoraemonUITests
+//  DoreamanUITests.swift
+//  DoreamanUITests
 //
-//  Created by Haibin Wang on 9/13/16.
+//  Created by Haibin Wang on 9/14/16.
 //  Copyright © 2016 henry. All rights reserved.
 //
 
 import XCTest
 
-class DoraemonUITests: XCTestCase {
+class DoreamanUITests: XCTestCase {
         
     override func setUp() {
         super.setUp()

@@ -1,15 +1,15 @@
 //
-//  DoraemonTests.swift
-//  DoraemonTests
+//  DoreamanTests.swift
+//  DoreamanTests
 //
-//  Created by Haibin Wang on 9/13/16.
+//  Created by Haibin Wang on 9/14/16.
 //  Copyright © 2016 henry. All rights reserved.
 //
 
 import XCTest
-@testable import Doraemon
+@testable import Doreaman
 
-class DoraemonTests: XCTestCase {
+class DoreamanTests: XCTestCase {
     
     override func setUp() {
         super.setUp()

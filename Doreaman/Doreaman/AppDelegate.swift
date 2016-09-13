@@ -1,8 +1,8 @@
 //
 //  AppDelegate.swift
-//  Doraemon
+//  Doreaman
 //
-//  Created by Haibin Wang on 9/13/16.
+//  Created by Haibin Wang on 9/14/16.
 //  Copyright © 2016 henry. All rights reserved.
 //
 

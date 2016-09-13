@@ -1,14 +1,14 @@
 //
-//  FirstViewController.swift
-//  Doraemon
+//  SecondViewController.swift
+//  Doreaman
 //
-//  Created by Haibin Wang on 9/13/16.
+//  Created by Haibin Wang on 9/14/16.
 //  Copyright © 2016 henry. All rights reserved.
 //
 
 import UIKit
 
-class FirstViewController: UIViewController {
+class SecondViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()

@@ -4,7 +4,7 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>Doraemon.xcscheme</key>
+		<key>Doreaman.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>0</integer>
@@ -12,17 +12,17 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>A326A2531D87FAF700DA3995</key>
+		<key>A326A2A11D88EFA500DA3995</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>A326A2691D87FAF700DA3995</key>
+		<key>A326A2B71D88EFA500DA3995</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>A326A2741D87FAF700DA3995</key>
+		<key>A326A2C21D88EFA500DA3995</key>
 		<dict>
 			<key>primary</key>
 			<true/>

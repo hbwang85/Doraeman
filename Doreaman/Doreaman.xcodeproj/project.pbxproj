@@ -1,0 +1,541 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A326A2A61D88EFA500DA3995 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A326A2A51D88EFA500DA3995 /* AppDelegate.swift */; };
+		A326A2A81D88EFA500DA3995 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A326A2A71D88EFA500DA3995 /* FirstViewController.swift */; };
+		A326A2AA1D88EFA500DA3995 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A326A2A91D88EFA500DA3995 /* SecondViewController.swift */; };
+		A326A2AD1D88EFA500DA3995 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A326A2AB1D88EFA500DA3995 /* Main.storyboard */; };
+		A326A2AF1D88EFA500DA3995 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A326A2AE1D88EFA500DA3995 /* Assets.xcassets */; };
+		A326A2B21D88EFA500DA3995 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A326A2B01D88EFA500DA3995 /* LaunchScreen.storyboard */; };
+		A326A2BD1D88EFA500DA3995 /* DoreamanTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A326A2BC1D88EFA500DA3995 /* DoreamanTests.swift */; };
+		A326A2C81D88EFA500DA3995 /* DoreamanUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A326A2C71D88EFA500DA3995 /* DoreamanUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A326A2B91D88EFA500DA3995 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A326A29A1D88EFA500DA3995 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A326A2A11D88EFA500DA3995;
+			remoteInfo = Doreaman;
+		};
+		A326A2C41D88EFA500DA3995 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A326A29A1D88EFA500DA3995 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A326A2A11D88EFA500DA3995;
+			remoteInfo = Doreaman;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A326A2A21D88EFA500DA3995 /* Doreaman.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Doreaman.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A326A2A51D88EFA500DA3995 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A326A2A71D88EFA500DA3995 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		A326A2A91D88EFA500DA3995 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		A326A2AC1D88EFA500DA3995 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A326A2AE1D88EFA500DA3995 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A326A2B11D88EFA500DA3995 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A326A2B31D88EFA500DA3995 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A326A2B81D88EFA500DA3995 /* DoreamanTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DoreamanTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A326A2BC1D88EFA500DA3995 /* DoreamanTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoreamanTests.swift; sourceTree = "<group>"; };
+		A326A2BE1D88EFA500DA3995 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A326A2C31D88EFA500DA3995 /* DoreamanUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DoreamanUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A326A2C71D88EFA500DA3995 /* DoreamanUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoreamanUITests.swift; sourceTree = "<group>"; };
+		A326A2C91D88EFA500DA3995 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A326A29F1D88EFA500DA3995 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A326A2B51D88EFA500DA3995 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A326A2C01D88EFA500DA3995 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A326A2991D88EFA500DA3995 = {
+			isa = PBXGroup;
+			children = (
+				A326A2A41D88EFA500DA3995 /* Doreaman */,
+				A326A2BB1D88EFA500DA3995 /* DoreamanTests */,
+				A326A2C61D88EFA500DA3995 /* DoreamanUITests */,
+				A326A2A31D88EFA500DA3995 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A326A2A31D88EFA500DA3995 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A326A2A21D88EFA500DA3995 /* Doreaman.app */,
+				A326A2B81D88EFA500DA3995 /* DoreamanTests.xctest */,
+				A326A2C31D88EFA500DA3995 /* DoreamanUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A326A2A41D88EFA500DA3995 /* Doreaman */ = {
+			isa = PBXGroup;
+			children = (
+				A326A2A51D88EFA500DA3995 /* AppDelegate.swift */,
+				A326A2A71D88EFA500DA3995 /* FirstViewController.swift */,
+				A326A2A91D88EFA500DA3995 /* SecondViewController.swift */,
+				A326A2AB1D88EFA500DA3995 /* Main.storyboard */,
+				A326A2AE1D88EFA500DA3995 /* Assets.xcassets */,
+				A326A2B01D88EFA500DA3995 /* LaunchScreen.storyboard */,
+				A326A2B31D88EFA500DA3995 /* Info.plist */,
+			);
+			path = Doreaman;
+			sourceTree = "<group>";
+		};
+		A326A2BB1D88EFA500DA3995 /* DoreamanTests */ = {
+			isa = PBXGroup;
+			children = (
+				A326A2BC1D88EFA500DA3995 /* DoreamanTests.swift */,
+				A326A2BE1D88EFA500DA3995 /* Info.plist */,
+			);
+			path = DoreamanTests;
+			sourceTree = "<group>";
+		};
+		A326A2C61D88EFA500DA3995 /* DoreamanUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A326A2C71D88EFA500DA3995 /* DoreamanUITests.swift */,
+				A326A2C91D88EFA500DA3995 /* Info.plist */,
+			);
+			path = DoreamanUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A326A2A11D88EFA500DA3995 /* Doreaman */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A326A2CC1D88EFA500DA3995 /* Build configuration list for PBXNativeTarget "Doreaman" */;
+			buildPhases = (
+				A326A29E1D88EFA500DA3995 /* Sources */,
+				A326A29F1D88EFA500DA3995 /* Frameworks */,
+				A326A2A01D88EFA500DA3995 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Doreaman;
+			productName = Doreaman;
+			productReference = A326A2A21D88EFA500DA3995 /* Doreaman.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A326A2B71D88EFA500DA3995 /* DoreamanTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A326A2CF1D88EFA500DA3995 /* Build configuration list for PBXNativeTarget "DoreamanTests" */;
+			buildPhases = (
+				A326A2B41D88EFA500DA3995 /* Sources */,
+				A326A2B51D88EFA500DA3995 /* Frameworks */,
+				A326A2B61D88EFA500DA3995 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A326A2BA1D88EFA500DA3995 /* PBXTargetDependency */,
+			);
+			name = DoreamanTests;
+			productName = DoreamanTests;
+			productReference = A326A2B81D88EFA500DA3995 /* DoreamanTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A326A2C21D88EFA500DA3995 /* DoreamanUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A326A2D21D88EFA500DA3995 /* Build configuration list for PBXNativeTarget "DoreamanUITests" */;
+			buildPhases = (
+				A326A2BF1D88EFA500DA3995 /* Sources */,
+				A326A2C01D88EFA500DA3995 /* Frameworks */,
+				A326A2C11D88EFA500DA3995 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A326A2C51D88EFA500DA3995 /* PBXTargetDependency */,
+			);
+			name = DoreamanUITests;
+			productName = DoreamanUITests;
+			productReference = A326A2C31D88EFA500DA3995 /* DoreamanUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A326A29A1D88EFA500DA3995 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = henry;
+				TargetAttributes = {
+					A326A2A11D88EFA500DA3995 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 96KFK2C89W;
+						ProvisioningStyle = Automatic;
+					};
+					A326A2B71D88EFA500DA3995 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 96KFK2C89W;
+						ProvisioningStyle = Automatic;
+						TestTargetID = A326A2A11D88EFA500DA3995;
+					};
+					A326A2C21D88EFA500DA3995 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 96KFK2C89W;
+						ProvisioningStyle = Automatic;
+						TestTargetID = A326A2A11D88EFA500DA3995;
+					};
+				};
+			};
+			buildConfigurationList = A326A29D1D88EFA500DA3995 /* Build configuration list for PBXProject "Doreaman" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A326A2991D88EFA500DA3995;
+			productRefGroup = A326A2A31D88EFA500DA3995 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A326A2A11D88EFA500DA3995 /* Doreaman */,
+				A326A2B71D88EFA500DA3995 /* DoreamanTests */,
+				A326A2C21D88EFA500DA3995 /* DoreamanUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A326A2A01D88EFA500DA3995 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A326A2B21D88EFA500DA3995 /* LaunchScreen.storyboard in Resources */,
+				A326A2AF1D88EFA500DA3995 /* Assets.xcassets in Resources */,
+				A326A2AD1D88EFA500DA3995 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A326A2B61D88EFA500DA3995 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A326A2C11D88EFA500DA3995 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A326A29E1D88EFA500DA3995 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A326A2AA1D88EFA500DA3995 /* SecondViewController.swift in Sources */,
+				A326A2A61D88EFA500DA3995 /* AppDelegate.swift in Sources */,
+				A326A2A81D88EFA500DA3995 /* FirstViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A326A2B41D88EFA500DA3995 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A326A2BD1D88EFA500DA3995 /* DoreamanTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A326A2BF1D88EFA500DA3995 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A326A2C81D88EFA500DA3995 /* DoreamanUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A326A2BA1D88EFA500DA3995 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A326A2A11D88EFA500DA3995 /* Doreaman */;
+			targetProxy = A326A2B91D88EFA500DA3995 /* PBXContainerItemProxy */;
+		};
+		A326A2C51D88EFA500DA3995 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A326A2A11D88EFA500DA3995 /* Doreaman */;
+			targetProxy = A326A2C41D88EFA500DA3995 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A326A2AB1D88EFA500DA3995 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A326A2AC1D88EFA500DA3995 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A326A2B01D88EFA500DA3995 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A326A2B11D88EFA500DA3995 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A326A2CA1D88EFA500DA3995 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A326A2CB1D88EFA500DA3995 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A326A2CD1D88EFA500DA3995 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 96KFK2C89W;
+				INFOPLIST_FILE = Doreaman/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bestrang.Doreaman;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		A326A2CE1D88EFA500DA3995 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 96KFK2C89W;
+				INFOPLIST_FILE = Doreaman/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bestrang.Doreaman;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		A326A2D01D88EFA500DA3995 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 96KFK2C89W;
+				INFOPLIST_FILE = DoreamanTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bestrang.DoreamanTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Doreaman.app/Doreaman";
+			};
+			name = Debug;
+		};
+		A326A2D11D88EFA500DA3995 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 96KFK2C89W;
+				INFOPLIST_FILE = DoreamanTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bestrang.DoreamanTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Doreaman.app/Doreaman";
+			};
+			name = Release;
+		};
+		A326A2D31D88EFA500DA3995 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 96KFK2C89W;
+				INFOPLIST_FILE = DoreamanUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bestrang.DoreamanUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Doreaman;
+			};
+			name = Debug;
+		};
+		A326A2D41D88EFA500DA3995 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 96KFK2C89W;
+				INFOPLIST_FILE = DoreamanUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bestrang.DoreamanUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Doreaman;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A326A29D1D88EFA500DA3995 /* Build configuration list for PBXProject "Doreaman" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A326A2CA1D88EFA500DA3995 /* Debug */,
+				A326A2CB1D88EFA500DA3995 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A326A2CC1D88EFA500DA3995 /* Build configuration list for PBXNativeTarget "Doreaman" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A326A2CD1D88EFA500DA3995 /* Debug */,
+				A326A2CE1D88EFA500DA3995 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A326A2CF1D88EFA500DA3995 /* Build configuration list for PBXNativeTarget "DoreamanTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A326A2D01D88EFA500DA3995 /* Debug */,
+				A326A2D11D88EFA500DA3995 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A326A2D21D88EFA500DA3995 /* Build configuration list for PBXNativeTarget "DoreamanUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A326A2D31D88EFA500DA3995 /* Debug */,
+				A326A2D41D88EFA500DA3995 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A326A29A1D88EFA500DA3995 /* Project object */;
+}

@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "A326A2531D87FAF700DA3995"
-               BuildableName = "Doraemon.app"
-               BlueprintName = "Doraemon"
-               ReferencedContainer = "container:Doraemon.xcodeproj">
+               BlueprintIdentifier = "A326A2A11D88EFA500DA3995"
+               BuildableName = "Doreaman.app"
+               BlueprintName = "Doreaman"
+               ReferencedContainer = "container:Doreaman.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -32,30 +32,30 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "A326A2691D87FAF700DA3995"
-               BuildableName = "DoraemonTests.xctest"
-               BlueprintName = "DoraemonTests"
-               ReferencedContainer = "container:Doraemon.xcodeproj">
+               BlueprintIdentifier = "A326A2B71D88EFA500DA3995"
+               BuildableName = "DoreamanTests.xctest"
+               BlueprintName = "DoreamanTests"
+               ReferencedContainer = "container:Doreaman.xcodeproj">
             </BuildableReference>
          </TestableReference>
          <TestableReference
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "A326A2741D87FAF700DA3995"
-               BuildableName = "DoraemonUITests.xctest"
-               BlueprintName = "DoraemonUITests"
-               ReferencedContainer = "container:Doraemon.xcodeproj">
+               BlueprintIdentifier = "A326A2C21D88EFA500DA3995"
+               BuildableName = "DoreamanUITests.xctest"
+               BlueprintName = "DoreamanUITests"
+               ReferencedContainer = "container:Doreaman.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "A326A2531D87FAF700DA3995"
-            BuildableName = "Doraemon.app"
-            BlueprintName = "Doraemon"
-            ReferencedContainer = "container:Doraemon.xcodeproj">
+            BlueprintIdentifier = "A326A2A11D88EFA500DA3995"
+            BuildableName = "Doreaman.app"
+            BlueprintName = "Doreaman"
+            ReferencedContainer = "container:Doreaman.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -75,10 +75,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "A326A2531D87FAF700DA3995"
-            BuildableName = "Doraemon.app"
-            BlueprintName = "Doraemon"
-            ReferencedContainer = "container:Doraemon.xcodeproj">
+            BlueprintIdentifier = "A326A2A11D88EFA500DA3995"
+            BuildableName = "Doreaman.app"
+            BlueprintName = "Doreaman"
+            ReferencedContainer = "container:Doreaman.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -94,10 +94,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "A326A2531D87FAF700DA3995"
-            BuildableName = "Doraemon.app"
-            BlueprintName = "Doraemon"
-            ReferencedContainer = "container:Doraemon.xcodeproj">
+            BlueprintIdentifier = "A326A2A11D88EFA500DA3995"
+            BuildableName = "Doreaman.app"
+            BlueprintName = "Doreaman"
+            ReferencedContainer = "container:Doreaman.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
