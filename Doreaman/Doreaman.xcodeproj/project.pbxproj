@@ -15,6 +15,8 @@
 		A326A2B21D88EFA500DA3995 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A326A2B01D88EFA500DA3995 /* LaunchScreen.storyboard */; };
 		A326A2BD1D88EFA500DA3995 /* DoreamanTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A326A2BC1D88EFA500DA3995 /* DoreamanTests.swift */; };
 		A326A2C81D88EFA500DA3995 /* DoreamanUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A326A2C71D88EFA500DA3995 /* DoreamanUITests.swift */; };
+		A326A2D61D88F16700DA3995 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A326A2D51D88F16700DA3995 /* Alamofire.framework */; };
+		A326A2D71D88F16700DA3995 /* Alamofire.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = A326A2D51D88F16700DA3995 /* Alamofire.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +36,20 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		A326A2D81D88F16700DA3995 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				A326A2D71D88F16700DA3995 /* Alamofire.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
 		A326A2A21D88EFA500DA3995 /* Doreaman.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Doreaman.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A326A2A51D88EFA500DA3995 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +65,7 @@
 		A326A2C31D88EFA500DA3995 /* DoreamanUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DoreamanUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A326A2C71D88EFA500DA3995 /* DoreamanUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoreamanUITests.swift; sourceTree = "<group>"; };
 		A326A2C91D88EFA500DA3995 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A326A2D51D88F16700DA3995 /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = Carthage/Build/iOS/Alamofire.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +73,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A326A2D61D88F16700DA3995 /* Alamofire.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -79,6 +97,7 @@
 		A326A2991D88EFA500DA3995 = {
 			isa = PBXGroup;
 			children = (
+				A326A2D51D88F16700DA3995 /* Alamofire.framework */,
 				A326A2A41D88EFA500DA3995 /* Doreaman */,
 				A326A2BB1D88EFA500DA3995 /* DoreamanTests */,
 				A326A2C61D88EFA500DA3995 /* DoreamanUITests */,
@@ -138,6 +157,8 @@
 				A326A29E1D88EFA500DA3995 /* Sources */,
 				A326A29F1D88EFA500DA3995 /* Frameworks */,
 				A326A2A01D88EFA500DA3995 /* Resources */,
+				A326A2D81D88F16700DA3995 /* Embed Frameworks */,
+				A326A2D91D88F19400DA3995 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -259,6 +280,23 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		A326A2D91D88F19400DA3995 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/Carthage/Build/iOS/Alamofire.framework",
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/usr/local/bin/carthage copy-frameworks";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		A326A29E1D88EFA500DA3995 /* Sources */ = {
@@ -420,6 +458,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 96KFK2C89W;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = Doreaman/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.bestrang.Doreaman;
@@ -433,6 +475,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 96KFK2C89W;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = Doreaman/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.bestrang.Doreaman;
@@ -518,6 +564,7 @@
 				A326A2CE1D88EFA500DA3995 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A326A2CF1D88EFA500DA3995 /* Build configuration list for PBXNativeTarget "DoreamanTests" */ = {
 			isa = XCConfigurationList;
@@ -526,6 +573,7 @@
 				A326A2D11D88EFA500DA3995 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A326A2D21D88EFA500DA3995 /* Build configuration list for PBXNativeTarget "DoreamanUITests" */ = {
 			isa = XCConfigurationList;
@@ -534,6 +582,7 @@
 				A326A2D41D88EFA500DA3995 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
